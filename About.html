@@ -150,8 +150,6 @@ font-family: 'Courier New', Courier, monospace;
             }
         }
 
-        // Firefox doesn't support passing current index of element using this keyword, odd.
-        // UPDATE: Turns it does? Just doesn't seem to work for passing through element completely, only specific segments of an element.
         const OnEvent = (doc) => {
             return {
                 on: (type, selector, callback) => {
